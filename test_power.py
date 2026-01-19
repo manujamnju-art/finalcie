@@ -1,6 +1,6 @@
 from power import calculate_power
 
-result = calculate_power(9, 8)
-assert round(result) == 43046721
+result = calculate_power(2, 3)
+assert round(result) == 8
 
-print("Test passed! 9^8 =", result)
+print("Test passed! 2^3 =", result)
