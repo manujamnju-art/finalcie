@@ -1,4 +1,6 @@
-from power import calculate_power(base, exponent)
+from power import calculate_power
 
-def calculate_power():
-    assert round(calculate_power(9,8))
+result = calculate_power(9, 8)
+assert round(result) == 43046721
+
+print("Test passed! 9^8 =", result)
